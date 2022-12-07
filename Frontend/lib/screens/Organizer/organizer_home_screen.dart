@@ -26,6 +26,7 @@ class _OrganizerHomeScreenState extends State<OrganizerHomeScreen> {
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
+      print(_selectedIndex);
     });
   }
 
@@ -138,13 +139,13 @@ class _OrganizerHomeScreenState extends State<OrganizerHomeScreen> {
                                   // const SizedBox(
                                   //   height: 10,
                                   // ),
-                                  // Text(""),
+                                  // Text("data "),
+
                                   // ignore: prefer_interpolation_to_compose_strings
                                   Text(
                                     "Event  :  ${controller.allEvent[index].title}",
                                     style: const TextStyle(fontSize: 20),
                                   ),
-                                  Text("data"),
                                   const SizedBox(
                                     height: 10,
                                   ),

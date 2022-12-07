@@ -9,8 +9,6 @@ import '../../constants.dart';
 import 'package:eandv/utilities/fieldvalidations.dart';
 import 'package:image_picker/image_picker.dart';
 
-import 'ImageFromGalleryEx.dart';
-
 class AddEventScreen extends StatefulWidget {
   const AddEventScreen({Key? key}) : super(key: key);
 
@@ -33,6 +31,7 @@ class _AddEventScreenState extends State<AddEventScreen> {
   EventController controller = Get.put(EventController());
 
   addEvent() {
+    print(eventData);
     _formKey.currentState!.save();
     if (_formKey.currentState!.validate()) {
       controller.addEvent(eventData);
@@ -161,6 +160,7 @@ class _AddEventScreenState extends State<AddEventScreen> {
                 child: const Text("Pick Image from Gallery"),
                 onPressed: () {
                   _handleURLButtonPress(context, ImageSourceType.gallery);
+                  // addEvent();
                 },
               ),
               const SizedBox(
@@ -205,7 +205,7 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
       appBar: AppBar(
           title: Text(type == ImageSourceType.camera
               ? "Image from Camera"
-              : "Image from Gallery")),
+              : "Image from Gallerysd")),
       body: Column(
         children: <Widget>[
           const SizedBox(
@@ -223,8 +223,9 @@ class ImageFromGalleryExState extends State<ImageFromGalleryEx> {
                     preferredCameraDevice: CameraDevice.front);
                 setState(() {
                   _image = File(image.path);
-                  // eventData['image'] = File(image.path);
+                  // eventData['image'] = _image;
                   print(_image);
+                  // return _image;
                 });
               },
               child: Container(

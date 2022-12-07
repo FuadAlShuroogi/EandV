@@ -52,7 +52,7 @@ class MobileWelcomeScreen extends StatelessWidget {
       children: <Widget>[
         const WelcomeImage(),
         Row(
-          children: const [
+          children: [
             Spacer(),
             Expanded(
               flex: 8,

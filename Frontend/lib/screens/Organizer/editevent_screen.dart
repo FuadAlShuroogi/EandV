@@ -2,12 +2,10 @@ import 'package:eandv/model/event_model.dart';
 import 'package:flutter/material.dart';
 import 'package:eandv/controller/event_controller.dart';
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
 import '../../constants.dart';
-import 'package:eandv/utilities/fieldvalidations.dart';
 
 class EditEventScreen extends StatefulWidget {
-  const EditEventScreen({Key? key}) : super(key: key);
+  const EditEventScreen({Key? key, int? event}) : super(key: key);
 
   @override
   State<EditEventScreen> createState() => _EditEventScreenState();
@@ -30,7 +28,6 @@ class _EditEventScreenState extends State<EditEventScreen> {
   @override
   void initState() {
     GetEventData();
-    // TODO: implement initState
     super.initState();
   }
 
@@ -111,7 +108,7 @@ class _EditEventScreenState extends State<EditEventScreen> {
               ElevatedButton(
                 onPressed: deleteEvent,
                 style: ElevatedButton.styleFrom(
-                    primary: Colors.red,
+                    backgroundColor: Colors.red,
                     padding: const EdgeInsets.symmetric(
                         horizontal: 50, vertical: 20)),
                 child: const Text('DELETE EVENT'),

@@ -2,6 +2,7 @@ import 'package:eandv/model/event_model.dart';
 import 'package:eandv/screens/Login/login_screen.dart';
 import 'package:eandv/screens/Organizer/addevent_screen.dart';
 import 'package:eandv/screens/Organizer/editevent_screen.dart';
+import 'package:eandv/screens/Volunteer/viewevent_detailsscreen.dart';
 import 'package:eandv/screens/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:eandv/controller/event_controller.dart';
@@ -40,7 +41,7 @@ class ViewEventScreen extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const EditEventScreen()));
+                                builder: (context) => ViewEventDetails()));
                       },
                       child: Container(
                         padding: EdgeInsets.all(10),

@@ -1,8 +1,5 @@
-import 'package:eandv/controller/log_in_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:intl/intl.dart';
 
 import '../constants.dart';
 import '../controller/event_controller.dart';
@@ -24,7 +21,6 @@ class _EditProfileState extends State<EditProfile> {
   @override
   void initState() {
     GetloginData();
-    // TODO: implement initState
     super.initState();
   }
 
