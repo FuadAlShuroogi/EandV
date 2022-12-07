@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <h1>GA SEI - Project 4 - EandV</h1>
+  <h1>Thekhir</h1>
   
 </div>
 
@@ -21,7 +21,6 @@
     <li><a href="#space_invader-technologies-used">Technologies Used</a></li>
     <li><a href="#camera-wire-frames">Wire Frames</a></li>
     <li><a href="#camera-wire-frames">ERDs</a></li>
-    <li><a href="#book-route-table">Route Table</a></li>
     <li><a href="#mirror-post-project-reflection">Post-Project Reflection</a></li>
     <li><a href="#information_source-sources-used">Sources Used</a></li>  
     
@@ -33,7 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-A simple web application dedicated for people who are interested in building experience by voluteering with organizations and for organizers to hire  volunteers, volunteers can apply for any certain job they are interested in or skilled in.   
+A simple native mobile application dedicated for people who are interested in building experience by voluteering with organizations and for organizers to hire  volunteers, volunteers can apply for any certain job they are interested in or skilled in.   
 
 ## :toolbox: Built With
 
@@ -73,13 +72,6 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 
 
-## :compass: A link to the deployed live site
-
-* [X] Coming soon!
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ## :wave: Approach taken
   
@@ -105,7 +97,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
   <summary>Client</summary>
   <ul>
     <li> Node Js </li>
-    <li> Flutter </li>
+    <li> Flutter, Dart </li>
     <li> Express </li>
   </ul>
 </details>
@@ -168,11 +160,9 @@ Eventually, we managed to create an application that might not be perfect, but w
 
 ---
 ## :information_source: Sources Used
-  1.Google-fu
+  1. Google-fu
 
-  2.Stack overflow 
-
-  3.W3 schools & developer mozilla
+  2. Stack overflow 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
