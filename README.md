@@ -39,7 +39,6 @@ A simple native mobile application dedicated for people who are interested in bu
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 * <a href="https://nodejs.org"><img height=34 src="https://raw.githubusercontent.com/caiogondim/javascript-server-side-logos/master/node.js/standard/454x128.png">
-* <a href="https://socket.io/"><img height=34 src="https://socket.io/images/logo.svg"> Socket.IO</a>
 * <a href="https://www.postgresql.org/"><img height=34 src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png"> PostgreSQL</a>
 
 
